@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -62,6 +60,82 @@
            </div>
         </nav>
     </header>
-   
+   <main>
+    <section class="w-max-screen-xl my-10 mx-auto  px-8 md:px-16 lg:px-32">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative h-max-[300px]  w-full">
+              <img src="images/banner1.png"class=" w-full  h-max-[400px]" />
+              <div class="absolute text-center px-[20%] py-[7%]">
+                <h1 class="text-white text-4xl lg:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class=" mt-3 text-base font-medium text-[#FFF]">We supply highly quality organic products</p>
+                <button class="btn mt-3 bg-[#F85559] text-white border-none">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full h-max-[300px]">
+              <img src="images//banner2.png" class="w-full  h-max-[600px]" />
+              <div class="absolute text-center px-[20%] py-[7%]">
+                <h1 class="text-white text-4xl lg:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class=" mt-3 text-base font-medium text-[#FFF]">We supply highly quality organic products</p>
+                <button class="btn mt-3 bg-[#F85559] text-white border-none">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full h-max-[300px]">
+              <img src="images//banner3.png" class="w-full  h-max-[600px] " />
+              <div class="absolute text-center px-[20%] py-[7%]">
+                <h1 class="text-white text-4xl lg:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class=" mt-3 text-base font-medium text-[#FFF]">We supply highly quality organic products</p>
+                <button class="btn mt-3 bg-[#F85559] text-white border-none">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+               
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full h-max-[300px]">
+              <img src="images//banner4.png" class="w-full h-max-[600px]" />
+              <div class="absolute text-center px-[20%] py-[7%]">
+                <h1 class="text-white text-4xl lg:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class=" mt-3 text-base font-medium text-[#FFF]">We supply highly quality organic products</p>
+                <button class="btn mt-3 bg-[#F85559] text-white border-none">Shop Now</button>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <div class="hidden absolute md:flex justify-between  bg-white shadow-lg p-5 -mt-[100px] ml-24 w-[900px]">
+            <div class="itext-center">
+                <img class="w-[100px]" src="images/fruit1.png" alt="">
+                <p class="text-center">Strawberry</p>
+            </div>
+            <div class="itext-center">
+                <img class="w-[80px]" src="images/fruit2.png" alt="">
+                <p class="text-center">Orange</p>
+            </div>
+            <div class="itext-center">
+                <img class="w-[100px]" src="images/fruit3.png" alt="">
+                <p class="text-center">Mango</p>
+            </div>
+            <div class="itext-center">
+                <img class="w-[100px]" src="images/fruit4.png" alt="">
+                <p class="text-center">Strawberry</p>
+            </div>
+            <div class="itext-center">
+                <img class="w-[100px]" src="images/fruit5.png" alt="">
+                <p class="text-center">Mango</p>
+            </div>
+          </div>
+    </section>
+   </main>
 </body>
 </html>
